@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="chanh.finalproject" >
+
+    <uses-permission android:name="chanh.androidlab5.locationapi.maps.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SubMainActivity" >
+        </activity>
+        <activity android:name=".LifeList" >
+        </activity>
+        <activity android:name=".IssueList" >
+        </activity>
+        <activity android:name=".Add" >
+        </activity>
+        <activity android:name=".Stats" >
+        </activity>
+        <activity android:name=".Help" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAyxztYFOdqPqn5bkIjrjP-xpo8_T4eBtk" />
+
+    </application>
+
+</manifest>

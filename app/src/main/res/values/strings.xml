@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">일상이슈</string>
+
+    <string name="life">일상 카테고리 선택</string>
+    <string-array name="life_array">
+        <item>일상 선택하세요</item>
+        <item>게임</item>
+        <item>공부</item>
+        <item>독서</item>
+        <item>쇼핑</item>
+        <item>여행</item>
+        <item>영화</item>
+        <item>운동</item>
+        <item>휴식</item>
+        <item>기타</item>
+    </string-array>
+
+    <string name="issue">이슈 카테고리 선택</string>
+    <string-array name="issue_array">
+        <item>이슈 선택하세요</item>
+        <item>교통 사고</item>
+        <item>유명인 포착</item>
+        <item>자연 재해</item>
+        <item>화재</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="life_list_array">
+        <item>일상 모두 보기</item>
+        <item>게임</item>
+        <item>공부</item>
+        <item>독서</item>
+        <item>쇼핑</item>
+        <item>여행</item>
+        <item>영화</item>
+        <item>운동</item>
+        <item>휴식</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="issue_list_array">
+        <item>이슈 모두 보기</item>
+        <item>교통 사고</item>
+        <item>유명인 포착</item>
+        <item>자연 재해</item>
+        <item>화재</item>
+        <item>기타</item>
+    </string-array>
+</resources>
